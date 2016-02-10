@@ -1,0 +1,373 @@
+@keyframes color-change-1{
+	0%   {color: red;}
+	16%  {color: orange;}
+	33%  {color: yellow;}
+	48%  {color: green;}
+	66%  {color: blue;}
+	83%  {color: purple;}
+	100% {color: red;}
+}
+
+@-webkit-keyframes color-change-1{ /* Safari and Chrome - necessary duplicate */
+	0%   {color: red;}
+	16%  {color: orange;}
+	33%  {color: yellow;}
+	48%  {color: green;}
+	66%  {color: blue;}
+	83%  {color: purple;}
+	100% {color: red;}
+}
+@keyframes color-change-2{
+	0%   {color: orange;}
+	16%  {color: yellow;}
+	33%  {color: green;}
+	48%  {color: blue;}
+	66%  {color: purple;}
+	83%  {color: red;}
+	100% {color: orange;}
+}
+
+@-webkit-keyframes color-change-2{ /* Safari and Chrome - necessary duplicate */
+	0%   {color: orange;}
+	16%  {color: yellow;}
+	33%  {color: green;}
+	48%  {color: blue;}
+	66%  {color: purple;}
+	83%  {color: red;}
+	100% {color: orange;}
+}
+@keyframes color-change-3{
+	0%  {color: yellow;}
+	16%  {color: green;}
+	33%  {color: blue;}
+	48%  {color: purple;}
+	66% {color: red;}
+	83%  {color: orange;}
+	100%   {color: yellow;}
+}
+
+@-webkit-keyframes color-change-3{ /* Safari and Chrome - necessary duplicate */
+	0%  {color: yellow;}
+	16%  {color: green;}
+	33%  {color: blue;}
+	48%  {color: purple;}
+	66% {color: red;}
+	83%  {color: orange;}
+	100%   {color: yellow;}
+}
+@keyframes color-change-4{
+	0%  {color: green;}
+	16%  {color: blue;}
+	33%  {color: purple;}
+	48%  {color: red;}
+	66% {color: orange;}
+	83%  {color: yellow;}
+	100%   {color: green;}
+}
+
+@-webkit-keyframes color-change-4{ /* Safari and Chrome - necessary duplicate */
+	0%  {color: green;}
+	16%  {color: blue;}
+	33%  {color: purple;}
+	48%  {color: red;}
+	66% {color: orange;}
+	83%  {color: yellow;}
+	100%   {color: green;}
+}
+@keyframes color-change-5{
+	0%  {color: blue;}
+	16%  {color: purple;}
+	33%  {color: red;}
+	48%  {color: orange;}
+	66% {color: yellow;}
+	83%  {color: green;}
+	100%   {color: blue;}
+}
+
+@-webkit-keyframes color-change-5{ /* Safari and Chrome - necessary duplicate */
+	0%  {color: blue;}
+	16%  {color: purple;}
+	33%  {color: red;}
+	48%  {color: orange;}
+	66% {color: yellow;}
+	83%  {color: green;}
+	100%   {color: blue;}
+}
+@keyframes color-change-6{
+	0%  {color: purple;}
+	16%  {color: red;}
+	33%  {color: orange;}
+	48%  {color: yellow;}
+	66% {color: green;}
+	83%  {color: blue;}
+	100%   {color: purple;}
+}
+
+@-webkit-keyframes color-change-6{ /* Safari and Chrome - necessary duplicate */
+	0%  {color: purple;}
+	16%  {color: red;}
+	33%  {color: orange;}
+	48%  {color: yellow;}
+	66% {color: green;}
+	83%  {color: blue;}
+	100%   {color: purple;}
+}
+.color-change-1{
+	animation: color-change-1 120s linear infinite;
+	-webkit-animation: color-change-1 120s linear infinite;
+}
+.color-change-2{
+	animation: color-change-2 120s linear infinite;
+	-webkit-animation: color-change-2 120s linear infinite;
+}
+.color-change-3{
+	animation: color-change-3 120s linear infinite;
+	-webkit-animation: color-change-3 120s linear infinite;
+}
+.color-change-4{
+	animation: color-change-4 120s linear infinite;
+	-webkit-animation: color-change-4 120s linear infinite;
+}
+.color-change-5{
+	animation: color-change-5 120s linear infinite;
+	-webkit-animation: color-change-5 120s linear infinite;
+}
+.color-change-6{
+	animation: color-change-6 120s linear infinite;
+	-webkit-animation: color-change-6 120s linear infinite;
+}
+
+span, img, a{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+html{
+	background-color: rgb(17, 17, 17);
+	color: #ffffff;
+	font-family: ftnk, Arial;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 34px;
+	letter-spacing: 0px;
+}
+body{
+	margin: 0;
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+a.pink:hover{
+	background: linear-gradient(to right, #fb2668 0%, #fb2668 100%);
+	background-size: 1px 2px;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	color: #fb2668;
+}
+a.green:hover{
+	background: linear-gradient(to right, rgb(7,123,0) 0%, rgb(7,123,0) 100%);
+	background-size: 1px 2px;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	color: rgb(7,123,0);
+}
+a.orange:hover{
+	background: linear-gradient(to right, #FF851B 0%, #FF851B 100%);
+	background-size: 1px 2px;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	color: #FF851B;
+}
+a.blue:hover{
+	background: linear-gradient(to right, #0074D9 0%, #0074D9 100%);
+	background-size: 1px 2px;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	color: #0074D9;
+}
+
+.block{
+	padding: 100px 0;
+	border-top: 1px solid rgba(255,255,255,0.02);
+}
+.content-holder{
+	width: 1000px;
+	margin: 0 auto;
+}
+.welcome-message{
+	height: 600px;
+	width: 100%;
+	margin-top: 300px;
+}
+.welcome-message .content-holder{
+	height: 300px;
+}
+
+.welcome-message span{
+	font-family: ftnk, Ariel;
+	font-size: 72px;
+	font-weight: 300;
+	line-height: 95px;
+}
+
+.side{
+	width: 150px;
+	display: inline-block;
+	font-weight: 300;
+}
+.circle{
+	padding-top: 25px;
+}
+.main-side{
+	width: 750px;
+	display: inline-block;
+	float: right;
+}
+.title{
+	width: 750px;
+}
+.title a{
+	color: rgb(7,123,0);
+}
+/*.title a:hover{
+	background: linear-gradient(to right, rgb(7,123,0) 0%, rgb(7,123,0) 100%);
+	background-size: 1px 2px;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+}*/
+.about-me{
+	height: 100px;
+}
+
+.header{
+	color: rgba(255,255,255,0.4);
+}
+
+.Content{
+	line-height: 29px;
+	font-size: 18px;
+}
+.experience{
+	height: 300px;
+}
+.experience-caption{
+	display: inline-block;
+	width: 250px;
+}
+.experience-wrap{
+	width: 500px;
+	float: right;
+}
+
+.experience-holder{
+	display: inline-block;
+	float: right;
+	width: 500px;
+	padding-bottom: 50px;
+}
+
+.experience-date{
+	display: inline-block;
+	float: left;
+	width: 180px;
+	padding-left: 70px;
+	color: rgba(255,255,255,0.4);
+	font-weight: 300;
+}
+.experience-details{
+	display: inline-block;
+	float: right;
+	width: 170px;
+	padding-left: 80px;
+}
+.experience-jobtitle{
+	color: rgba(255,255,255,0.4);
+	font-weight: 300;
+}
+.experience-website{
+	color: rgba(255,255,255,0.4);
+	font-weight: 300;
+}
+.experience-website a{
+	color: rgba(255,255,255,0.4);
+}
+
+/*.experience-website.pink a:hover{
+	background: linear-gradient(to right, #fb2668 0%, #fb2668 100%);
+	background-size: 1px 2px;
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	color: #fb2668;
+}*/
+
+.images img{
+	margin-bottom: 30px;
+}
+
+.contact{
+	height: 300px;
+}
+.contact-holder{
+	padding-top: 100px;
+	width: 750px;
+}
+.contact-message{
+	width: 250px;
+	display: inline-block;
+	margin-left: 250px;
+}
+.contact-message span{
+	color: rgba(255,255,255,0.4);
+	font-weight: 300;
+}
+.social-links{
+	width:250px;
+	float:right;
+}
+.social-links ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.email-link{
+	font-size: 72px;
+	line-height: 72px;
+	font-weight: 300;
+	text-decoration: none;
+	color: #ffffff;
+}
