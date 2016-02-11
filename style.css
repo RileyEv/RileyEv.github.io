@@ -373,7 +373,31 @@ a.blue:hover{
 	color: #ffffff;
 }
 
-@media (min-width:1024px;) and (max-width:768px;){
-	
-	
+@media (max-width: 1024px) and (min-width: 768px){
+	.content-holder{
+		width: 750px;
+	}
+	.images img{
+		width: 750px;
+	}
+	.side{
+		width: 113px;
+	}
+	.main-side{
+		width: 605px;
+	}
+	.experience-caption{
+		width: 200px;
+	}
+	.experience-holder, .experience-wrap{
+		width: 400px;
+	}
+	.experience-date, .experience-details{
+		width: 144px;
+		padding-left: 56px;
+	}
+	.email-link{
+		font-size: 65px;
+		line-height: 65px;
+	}
 }
