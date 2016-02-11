@@ -473,6 +473,66 @@ a.blue:hover{
 		width: 150px;
 	}
 }
+@media (max-width: 480px) and (min-width: 320px){
+	.content-holder{
+		width: 300px;
+	}
+	.images img{
+		width: 300px;
+	}
+	.side{
+		width: 45px;
+	}
+	.main-side{
+		width: 225px;
+	}
+	.welcome-message{
+		margin-top: 100px;
+		height: 225px !important;
+	}
+	.welcome-message span{
+		font-size: 26px;
+		line-height: 35px;
+	}
+	.about-me{
+		height: 300px;
+	}
+	.experience{
+		height: 400px;
+	}
+	.experience-caption{
+		padding-left: 10px;
+		width: 225px;
+	}
+	.experience-holder, .experience-wrap{
+		width: 225px;
+		float: left;
+	}
+	.experience-wrap{
+		padding-top: 30px;
+	}
+	.experience-date, .experience-details{
+		width: 111px;
+		padding-left: 0px;
+	}
+	.contact{
+		height: 200px;
+	}
+	.email-link{
+		font-size: 27px;
+		line-height: 27px;
+	}
+	.contact-holder{
+		width: 225px;
+	}
+	.contact-message{
+		margin-left: 0px;
+		width: 100px;
+	}
+	.social-links{
+		width: 100px;
+	}
+}
 @media (max-height: 800px) and (min-height: 700px) and (min-width: 768px){
 	.welcome-message{
 		margin-top:250px;
