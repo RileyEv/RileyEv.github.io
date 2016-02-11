@@ -400,4 +400,91 @@ a.blue:hover{
 		font-size: 65px;
 		line-height: 65px;
 	}
+	.contact-holder{
+		width: 605px;
+	}
+	.contact-message{
+		margin-left: 200px;
+	}
+	.social-links{
+		width: 150px;
+	}
+}
+@media (max-width: 768px) and (min-width: 480px){
+	.content-holder{
+		width: 450px;
+	}
+	.images img{
+		width: 450px;
+	}
+	.side{
+		width: 68px;
+	}
+	.main-side{
+		width: 338px;
+	}
+	.welcome-message{
+		margin-top: 150px;
+		height: 325px !important;
+	}
+	.welcome-message span{
+		font-size: 40px;
+		line-height: 53px;
+	}
+	.about-me{
+		height: 200px;
+	}
+	.experience{
+		height: 350px;
+	}
+	.experience-caption{
+		width: 338px;
+	}
+	.experience-caption br {
+		content: " ";
+		display: none;
+	}
+	.experience-holder, .experience-wrap{
+		width: 338px;
+		float: left;
+	}
+	.experience-wrap{
+		padding-top: 30px;
+	}
+	.experience-date, .experience-details{
+		width: 144px;
+		padding-left: 0px;
+	}
+	.contact{
+		height: 200px;
+	}
+	.email-link{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.contact-holder{
+		width: 338px;
+	}
+	.contact-message{
+		margin-left: 0px;
+		width: 150px;
+	}
+	.social-links{
+		width: 150px;
+	}
+}
+@media (max-height: 800px) and (min-height: 700px) and (min-width: 768px){
+	.welcome-message{
+		margin-top:250px;
+	}
+}
+@media (max-height: 700px) and (min-height: 650px) and (min-width: 768px){
+	.welcome-message{
+		margin-top:200px;
+	}
+}
+@media (max-height: 650px) and (min-height: 600px) and (min-width: 768px){
+	.welcome-message{
+		margin-top:150px;
+	}
 }
