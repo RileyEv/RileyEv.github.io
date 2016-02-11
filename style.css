@@ -337,6 +337,7 @@ a.blue:hover{
 
 .images img{
 	margin-bottom: 30px;
+	width: 1000px;
 }
 
 .contact{
@@ -370,4 +371,9 @@ a.blue:hover{
 	font-weight: 300;
 	text-decoration: none;
 	color: #ffffff;
+}
+
+@media (min-width:1024px;) and (max-width:768px;){
+	
+	
 }
