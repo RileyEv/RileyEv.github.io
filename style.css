@@ -443,6 +443,9 @@ a.blue:hover{
 	}
 }
 @media (max-width: 768px) and (min-width: 480px){
+	.menu-link{
+		margin-top: 50px;
+	}
 	.menu-link-container{
 		width: 450px;
 	}
