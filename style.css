@@ -248,7 +248,7 @@ a.blue:hover{
 .welcome-message{
 	height: 600px;
 	width: 100%;
-	margin-top: 166px;
+	margin-top: 116px;
 }
 .welcome-message .content-holder{
 	height: 300px;
@@ -551,7 +551,7 @@ a.blue:hover{
 }
 @media (max-height: 800px) and (min-height: 700px) and (min-width: 768px){
 	.welcome-message{
-		margin-top: 116px;
+		margin-top: 66px;
 	}
 }
 @media (max-height: 700px) and (min-height: 650px) and (min-width: 768px){
