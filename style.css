@@ -388,8 +388,16 @@ a.blue:hover{
 	text-decoration: none;
 	color: #ffffff;
 }
+@media (max-width: 1150px) and (min-width: 1024px){
+	.menu-link-container{
+		margin-right: 75px;
+	}
+}
 
 @media (max-width: 1024px) and (min-width: 768px){
+	.menu-link-container{
+		margin-right: 100px;
+	}
 	.content-holder{
 		width: 750px;
 	}
@@ -427,6 +435,11 @@ a.blue:hover{
 	}
 }
 @media (max-width: 768px) and (min-width: 480px){
+	.menu-link-container{
+		margin-right: auto;
+		margin-left: auto;
+		width: 107px;
+	}
 	.content-holder{
 		width: 450px;
 	}
@@ -490,6 +503,11 @@ a.blue:hover{
 	}
 }
 @media (max-width: 480px) and (min-width: 320px){
+	.menu-link-container{
+		margin-right: auto;
+		margin-left: auto;
+		width: 107px;
+	}
 	.content-holder{
 		width: 300px;
 	}
