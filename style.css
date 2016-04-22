@@ -405,11 +405,11 @@ a.blue:hover{
   max-width: 100%;
 }
 @media (max-width: 480px){
-  .blog-post header{
+  .blog-post .header{
     width: 100%;
-    text-align:center
+    text-align:center;
   }
-  .blog-post content{
+  .blog-post .content{
     width: 100%;
   }
 }
