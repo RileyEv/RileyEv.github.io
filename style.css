@@ -298,6 +298,12 @@ a.blue:hover{
 .about-me{
 	height: 100px;
 }
+.about-me a.orange{
+	color: #FF851B;
+}
+.about-me a.pink{
+	color: #fb2668;
+}
 
 .header{
 	color: rgba(255,255,255,0.4);
