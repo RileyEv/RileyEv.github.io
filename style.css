@@ -223,10 +223,6 @@ a.blue:hover{
 
 .block{
 	padding: 100px 0;
-	border-top: 1px solid rgba(255,255,255,0.02);
-}
-.block:first-of-type{
-	border-top: none;
 }
 .content-holder{
 	width: 1000px;
